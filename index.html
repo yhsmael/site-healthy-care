@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="navabar">
+            <div class="container">
+                <div class="menu">
+                    <div class=" logo"> SelfCare</div>
+                    <div class="menu-links">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Artigos</a>
+                                
+                            </li>
+                            <li>
+                                <a href="">Sobre nos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="info-flexbox">
+                <div class="info">
+                    <div class="texts">
+                        <div class="titulo">Welcome</div>
+                        <p>Coma alimentos saudaveis</p>
+                        <p>Fique saudável</p>
+                    </div>
+                </div>
+                <div class="imagem-cesta">
+                   <img src="assets/img/png-transparent-cornucopia-harvest-natural-foods-food-leaf-thumbnail-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section id="calculadora" class="absolute-center">
+        <div class="container">
+          <div class="calculadora">
+            
+            <div class="form">
+              <form id="formulario">
+          
+                <h1>Calcule meu IMC</h1>
+    
+                <label for="altura"> Altura (ex: 1,80) </label>
+                <input type="number" step=".01" id="altura" name="altura" placeholder="Insira sua altura, em metro(s)" required>
+    
+                
+                <label for="peso"> Peso (ex: 60,00) </label>
+                <input type="number" step=".01" id="peso" name="peso" placeholder="Insira seu peso, em quilograma(s)  " required>
+    
+                <button type="submit" id="calcular">Calcular meu IMC</button>
+    
+                <div class="resultado"></div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+    <script src="js/index.js"></script>
+</body>
+</html>
